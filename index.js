@@ -1,7 +1,7 @@
-import map from './map.js';
-import forEach from './forEach.js';
-import filter from './filter.js';
-import reduce from './reduce.js';
+import map from './customFunctions/map.js';
+import forEach from './customFunctions/forEach.js';
+import filter from './customFunctions/filter.js';
+import reduce from './customFunctions/reduce.js';
 
 const numbers = [1, 2, 3, 4, 5];
 const fruits = ['apple', 'orange', 'banana', 'cherry'];
