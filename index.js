@@ -8,14 +8,14 @@ const fruits = ['apple', 'orange', 'banana', 'cherry'];
 const scores = [70, 85, 90, 50, 65];
 //
 // double numbers using custom map methods
-const callBackFunctionForMap = (Element, idx, array) => Element * 2;
+const callBackFunctionForMap = (Element) => Element * 2;
 const doubledNumbers = map(numbers, callBackFunctionForMap);
 
 console.log(doubledNumbers); // Output: [1, 4, 6, 8, 10]
 //
 
 // logging fruits with indexes using custom forEach method
-const callBackFunctionForEach = (Element, idx, array) => {
+const callBackFunctionForEach = (Element, idx) => {
   console.log(`Fruits ${idx + 1}: ${Element}`);
 };
 forEach(fruits, callBackFunctionForEach);
